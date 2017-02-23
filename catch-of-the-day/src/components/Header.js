@@ -37,5 +37,9 @@ const Header = (props) => {
 		)
 }
 
+//Add props tyoes for headers
+Header.propTypes = {
+	tagline: React.PropTypes.string.isRequired
+};
 
 export default Header;
